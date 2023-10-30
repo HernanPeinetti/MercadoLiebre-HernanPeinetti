@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
     <link rel="stylesheet" href="/css/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!---->
@@ -17,7 +17,7 @@
         <!--Barra de busqueda-->
         <section class="search-bar">
             <input type="text" placeholder="Buscar producto">
-            <button>Buscar</button>
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </section>
         <!--Eslogan-->
         <div class="cuotasInfo">
@@ -25,18 +25,24 @@
         </div>
         <!--Barra de navegacion-->
         <nav>
-            <ul class="publico">
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Tiendas Oficiales</a></li>
-                <li><a href="#">Vender</a></li>
-                <li><a href="#">Ayuda</a></li>
+            <ul id="publico">
+                <li><a href="#" class="item">Ofertas</a></li>
+                <li><a href="#" class="item">Tiendas Oficiales</a></li>
+                <li><a href="#" class="item">Vender</a></li>
+                <li><a href="#" class="item">Ayuda</a></li>
             </ul>
-            <ul class="privado">
-                <li><a href="#">Crear cuenta</a></li>
-                <li><a href="#">Ingresar</a></li>
-                <li><a href="#">Mis compras</a></li>
+            <ul id="privado">
+                <li><a href="#">Crear cuenta</a> <i class="fa-solid fa-user"></i></li>
+                <li><a href="#">Ingresar</a> <i class="fa-solid fa-right-to-bracket"></i></li>
+                <li><a href="#">Mis compras</a> <i class="fa-solid fa-cart-shopping"></i></li>
             </ul>
         </nav>
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        
+    
+    
     </header>
     <!---->
     <section class="banner">
@@ -51,7 +57,7 @@
             <!--Productos-->
 
             <!--Producto 1-->
-            <article class="producto">
+            <article id="productoUno">
                 <img src="/img/img-cafetera-moulinex.jpg" alt="cafetera Moulinex">
                 <p>$6.700</p>
                 <p>40% off</p>
@@ -59,7 +65,7 @@
             </article>
 
             <!--Producto 2-->
-            <article class="producto">
+            <article id="productoDos>">
                 <img src="/img/img-macbook-pro-2019.jpg" alt="MacBook Pro 2019">
                 <p>$230.000</p>
                 <p>20% off</p>
@@ -68,7 +74,7 @@
 
             <!--Producto 3-->
 
-            <article class="producto">
+            <article id="productoTres">
                 <img src="/img/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy S10">
                 <p>$70.500</p>
                 <p>10% off</p>
@@ -83,28 +89,7 @@
                 <p>5% off</p>
                 <h3>SmartTv Samsung 43"</h3>
             </article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </section>
-
-
-
-                
-
-
 
 
     </main>

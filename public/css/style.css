@@ -1,0 +1,15 @@
+header{
+    background-color: yellow;
+}
+
+.burger-menu .fa-bars{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: 45%;
+    border-radius: 5px;
+}
+
+    
