@@ -1,6 +1,31 @@
+*{
+    Margin:0;
+    Box-sizing: border-box
+  }
+
+body{
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
     background-color: yellow;
 }
+
+.cuotasInfo p{
+    text-align: center;
+}
+
+
+
+#publico li a{
+    text-decoration: none;
+}
+
+#privado li a{
+    text-decoration: none;
+}
+
 
 .burger-menu .fa-bars{
     background-color: blue;
@@ -11,5 +36,39 @@ header{
     margin-left: 45%;
     border-radius: 5px;
 }
+
+footer section{
+    text-align: center;
+}
+
+footer section .fa-credit-card{
+    background-color: white;
+    color: blue;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer section .fa-gift{
+    background-color: white;
+    color: blue;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer section .fa-user-shield{
+    background-color: white;
+    color: blue;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+
+    
+
+    
+
 
     
