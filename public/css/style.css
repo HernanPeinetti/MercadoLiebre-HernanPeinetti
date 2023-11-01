@@ -1,3 +1,4 @@
+
 *{
     Margin:0;
     Box-sizing: border-box
@@ -11,6 +12,12 @@ body{
 header{
     background-color: yellow;
 }
+
+section{
+    width: 100vw;
+
+}
+
 
 .cuotasInfo p{
     text-align: center;
@@ -27,7 +34,7 @@ header{
 }
 
 
-.burger-menu .fa-bars{
+.fa-bars{
     background-color: blue;
     color: white;
     text-align: center;
@@ -56,6 +63,16 @@ footer section .fa-gift{
     font-size: 2em;
     margin-bottom: 10px;
 }
+.banner{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+    
+    
 
 footer section .fa-user-shield{
     background-color: white;
