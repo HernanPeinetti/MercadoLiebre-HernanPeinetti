@@ -3,8 +3,9 @@
     Margin:0;
     Box-sizing: border-box
   }
-
+/*Header*/
 body{
+    font-size: 12px;
     font-family: 'Delicious Handrawn', cursive;
     font-family: 'Roboto', sans-serif;
 }
@@ -15,16 +16,8 @@ header{
 
 section{
     width: 100vw;
-
 }
-
-
-.cuotasInfo p{
-    text-align: center;
-}
-
-
-
+/*Barra de navegacion*/
 #publico li a{
     text-decoration: none;
     color: black;
@@ -43,10 +36,10 @@ section{
 #privado li{
     list-style: none;
 }
-
+/*Menu Hamburguesa*/
 
 .fa-bars{
-    background-color: blue;
+    background-color:#1259c3;
     color: white;
     text-align: center;
     padding: 8px;
@@ -54,26 +47,11 @@ section{
     margin-left: 45%;
     border-radius: 5px;
 }
-
-footer section{
+/*Mensajes entre header-main*/
+.cuotasInfo p{
     text-align: center;
 }
 
-footer section .fa-credit-card{
-    background-color: white;
-    color: blue;
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-footer section .fa-gift{
-    background-color: white;
-    color: blue;
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 10px;
-}
 .banner{
     width: 100%;
 }
@@ -82,13 +60,159 @@ img{
     width: 100%;
 }
 
-footer section .fa-user-shield{
+
+
+/*Main*/
+main{
+    background-color:#ebebeb;
+}
+
+.fa-truck{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    color: #39b54a;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+
+}
+
+.info-container{
+    position: relative;
+    border-top: 1px solid transparent;
+    display: flex;
+    flex-flow:row wrap;
+    width: inherit;
+    justify-content: center;
+    align-items: baseline;
+}
+#ultimaVisita,
+#ofertas{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    
+    
+    
+
+
+    
+main i{
+    text-align: center;
+    
+}
+    
+
+main section h2{
+    font-size: 24px;
+
+}
+.descuento{
+    width: 70%;
+    color: #39b54a;
+
+
+}
+
+.precio{
+    font-size: 18px;
+    width: 30%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.descripcion{
+    margin: 10px 0;
+
+}
+
+.productContainer{
+    width: 90vw;
     background-color: white;
-    color: blue;
+    margin-bottom: 10px;
+}
+
+main h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
+main section article p{
+    font-size:16px;
+}
+
+main section article h3{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer section{
+    text-align: center;
+    width: 60vw;
+    margin-top: 15px;
+
+}
+
+
+footer section .fa-credit-card{
+    background-color: white;
+    color: #1259c3;
     text-align: center;
     font-size: 2em;
     margin-bottom: 10px;
 }
+
+footer section .fa-gift{
+    background-color: white;
+    color: #1259c3;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer section .fa-user-shield{
+    background-color: white;
+    color: #1259c3;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer>p{
+    align-self: flex-start;
+    margin-left: 10px;
+}
+    
+
 
 
     
