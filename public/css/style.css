@@ -18,24 +18,19 @@ section{
     width: 100vw;
 }
 /*Barra de navegacion*/
-#publico li a{
-    text-decoration: none;
-    color: black;
-}
-
-#publico li{
-    list-style: none;
-}
-
-
-#privado li a{
-    text-decoration: none;
-    color: black;
-}
-
+#publico,
 #privado li{
     list-style: none;
 }
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
 /*Menu Hamburguesa*/
 
 .fa-bars{
@@ -65,6 +60,7 @@ img{
 /*Main*/
 main{
     background-color:#ebebeb;
+    border-top: 1px solid #ebebeb;
 }
 
 .fa-truck{
@@ -102,21 +98,16 @@ main{
 
 
     
-    
-    
-
-
-    
 main i{
     text-align: center;
-    
 }
     
+    
 
-main section h2{
+.titulares{
     font-size: 24px;
-
 }
+
 .descuento{
     width: 70%;
     color: #39b54a;
@@ -140,16 +131,28 @@ main section h2{
     width: 90vw;
     background-color: white;
     margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    border-top: 2px solid #ebebeb;
 }
+/*
+.productContainer{
+    margin-bottom: 10px;
+    padding: 15px;
+    border-top: 1px solid #ebebeb;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+*/
+
+
+
+
+
+
 
 main h2{
     margin-bottom: 10px;
     margin-top: 10px;
 }
-
-
-
-
 
 main section article p{
     font-size:16px;
@@ -158,12 +161,6 @@ main section article p{
 main section article h3{
     font-size: 16px;
 }
-
-
-
-
-
-
 
 /*Footer*/
 
@@ -183,23 +180,7 @@ footer section{
 }
 
 
-footer section .fa-credit-card{
-    background-color: white;
-    color: #1259c3;
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-footer section .fa-gift{
-    background-color: white;
-    color: #1259c3;
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-footer section .fa-user-shield{
+footer section .fa-credit-card, .fa-gift, .fa-user-shield{
     background-color: white;
     color: #1259c3;
     text-align: center;
@@ -211,13 +192,12 @@ footer>p{
     align-self: flex-start;
     margin-left: 10px;
 }
+
+/*
     
-
-
-
-    
-
-    
-
-
-    
+@media (min-width: 361px) {
+    main .descripcion {
+        display: none; 
+    }
+}
+*/
