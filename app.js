@@ -25,6 +25,11 @@ app.get("/login", (req, res) =>{
     res.sendFile(loginHtml);
 });
 
+app.get("/register", (req, res) =>{
+    let registerHtml = path.resolve(__dirname, "./views/register.html");
+    res.sendFile(registerHtml);
+})
+
 
 
     
