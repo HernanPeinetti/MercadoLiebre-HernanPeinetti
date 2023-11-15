@@ -523,27 +523,89 @@ footer section {
         justify-content: space-between;
     }}
 
-    .main-form{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        background-color:#ebebeb;
-    }
-    
-    
-    
-    .register_format{
-        border: 2px solid red;
+
+    form {
+        max-width: 600px;
+        margin: 20px auto;
+      }
+      
+      input {
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      
+      h3 {
+        margin-top: 20px;
+      }
+      
+      .profile,
+      .interests {
+        margin-top: 10px;
+      }
+      
+      .profile input,
+      .interests input {
+        margin: 5px 5px 5px 0;
+      }
+      
+      /* Estilos para el botón de enviar y borrar */
+      button {
+        background-color: #1259c3;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      
+      button a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      
+      button[type="reset"] {
+        background-color: #1259c3;
+        margin-left: 10px;
+      }
+      
+      /* Estilos para el input de tipo file */
+      input[type="file"] {
+        margin-top: 10px;
+      }
+      
+      /* Estilos para los mensajes de formato incorrecto */
+      .register_format {
+        border: 2px solid #1259c3;
         border-radius: 2px;
         width: 170px;
-        color: red;
-    }
+        color: #1259c3;
+        padding: 5px;
+        margin-top: 5px;
+      }
+      
+      /* Estilos para los mensajes de error */
+      p.register_format {
+        display: none;
+        margin: 5px 0 0;
+      }
+      
+      /* Mostrar mensajes de error en caso de formato incorrecto */
+      input:invalid + p.register_format {
+        display: block;
+      }
 
 
 
 
 
+
+  
+  
 
 
 

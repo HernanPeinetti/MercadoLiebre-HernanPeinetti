@@ -57,21 +57,21 @@
     </header>
 
     <main class="main-form">
-        <form action="/register" method="post">
+        <form action="" method="post">
             <br>
             <input type="text" name="Nombre" id="Nombre" required pattern="[a-zA-Z\s]+" placeholder="Nombre y Apellido">
             <br>
-             <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Ingresar formato solicitado</p>
+             <!-- <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Ingresar formato solicitado</p> -->
              
             <br>
             <input type="text" name="Usuario" id="Usuario" required pattern="[a-zA-Z\s]+" placeholder="Nombre de usuario">
             <br>
-            <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Ingresar formato solicitado</p>
+            <!-- <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Ingresar formato solicitado</p> -->
             <br>
             <h3>Fecha de nacimiento</h3>
             <input type="date" name="nacimiento" id="nacimiento" required pattern="\d{2}-\d{2}-\d{4}">
             <br>
-            <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Ingresar formato solicitado</p>
+            <!-- <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Ingresar formato solicitado</p> -->
             <br>
             <input type="text" name="domicilio" id="domicilio" required placeholder="Domicilio">
             <br>
@@ -116,8 +116,10 @@
                 <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
                 <br>
                 <br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar">
+                <button type="submit"><a href="/home.html">Enviar</a></button>
+                <button type="reset">Borrar</button>
+                <!-- <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar"> -->
                 <br>
                 <br>
              
