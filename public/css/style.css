@@ -447,7 +447,9 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
 
 .producto-container:hover {
     cursor: pointer;
-    opacity: 70% ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    /* opacity: 70% ; */
+
   }
 
   /* descripción oculta /*/
@@ -466,7 +468,7 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
 }
 
 .fa-truck:hover{
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
 }
 
  /*cambio de color iconos footer */
